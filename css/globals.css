@@ -1,0 +1,1007 @@
+/* Reset de estilos y configuración global */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  height: auto;
+  list-style: none;
+  box-sizing: border-box;
+  background-color: #121212;
+}
+
+@media (min-width: 360px) and (max-width: 1024px) {
+  body {
+    width: 100vw;
+  }
+}
+
+li a {
+  text-decoration: none;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+/* ---------- Fuente personalizada y estilos */
+a {
+  text-decoration: none;
+  color: var(--color-1)
+}
+
+.page-exportar .nav-list a:hover {
+  color: var(--color-3);
+}
+
+.page-exportar .link-button a {
+  color: var(--color-2)
+}
+main{
+  background-color: #121212;
+  width: 1440px;
+  /* height: 1264px; */
+  /* position: relative; */
+}
+
+/* .page-exportar .link-button:hover{
+  background-color: var(--color-6);
+  border-color: var(--color-5);
+} */
+.page-exportar .link-button a:hover {
+  color: var(--color-1);
+}
+
+b{
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+hr{
+  border: 1px solid var(--color-3);
+  border-radius: 5px;
+  width: 100%;
+  margin: 64px 0px 64px 0px;
+}
+.hr-mitad{
+  border: 1px solid var(--color-3);
+  border-radius: 5px;
+  width: 50%;
+  margin: 24px 0px 36px 0px;
+}
+
+
+/* Fuente personalizada y estilos ---------- */
+
+/* ---------- botones */
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h-button {
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.h-button span {
+  display: inline-block;
+  min-width: 0.3em;
+  text-transform: uppercase;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  opacity: 0;
+  transform: translate(0, -20px);
+}
+
+.h-button:before {
+  content: attr(data-text);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  opacity: 1;
+  transform: translate(0, 0px);
+}
+
+.h-button:hover:before,
+.h-button:focus:before {
+  opacity: 0;
+  transform: translate(0, 20px);
+}
+
+.h-button:hover span,
+.h-button:focus span {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.h-button:hover span:nth-child(1),
+.h-button:focus span:nth-child(1) {
+  transition-delay: 0.025s;
+}
+
+.h-button:hover span:nth-child(2),
+.h-button:focus span:nth-child(2) {
+  transition-delay: 0.05s;
+}
+
+.h-button:hover span:nth-child(3),
+.h-button:focus span:nth-child(3) {
+  transition-delay: 0.075s;
+}
+
+.h-button:hover span:nth-child(4),
+.h-button:focus span:nth-child(4) {
+  transition-delay: 0.1s;
+}
+
+.h-button:hover span:nth-child(5),
+.h-button:focus span:nth-child(5) {
+  transition-delay: 0.125s;
+}
+
+.h-button:hover span:nth-child(6),
+.h-button:focus span:nth-child(6) {
+  transition-delay: 0.15s;
+}
+
+.page-exportar .boton:hover {
+  background-color: var(--color-3);
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Commissioner:500,400");
+
+@font-face {
+  font-family: "Futura Bk BT-Book";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/62430a356a4a60c495e23637/fonts/futura-extra-black-font.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura Lt BT-Light";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/60cf4b0d73ed244cdd4d91ff/fonts/futura-light-bt.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura Hv BT-Heavy";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/62494169fb257b1c34729f24/fonts/futura-heavy-font.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura Hv BT-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/62494169fb257b1c34729f24/fonts/futura-light-bt.ttf") format("truetype");
+}
+
+
+
+.page-mensura .boton-terciario {
+  position: fixed;
+  top: 160px;
+  left: 264px;
+  border-radius: 70px;
+  display: flex;
+  width: 256px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 35px 54px;
+}
+
+
+/* ---------- Estilos de la nav-aside-left */
+
+.page-estados .nav-aside-left,
+.page-propiedad .nav-aside-left,
+.page-mensura .nav-aside-left,
+.page-urbanizaciones .nav-aside-left,
+.page-mensura .nav-aside-left {
+  position: fixed;
+  width: 256px;
+  height: 214px;
+  top: 300px;
+  left: 264px;
+  background-color: #1e1e1e;
+  border-radius: 16px;
+}
+
+.page-amojonamieto .text-list-nav-aside-left a:hover,
+.page-levantamientos .text-list-nav-aside-left a:hover,
+.page-nivelacion .text-list-nav-aside-left a:hover,
+.page-replanteo .text-list-nav-aside-left a:hover,
+.page-otros-trabajos .text-list-nav-aside-left a:hover,
+.page-estados .text-list-nav-aside-left a:hover,
+.page-propiedad .text-list-nav-aside-left a:hover,
+.page-mensura .text-list-nav-aside-left a:hover,
+.page-urbanizaciones .text-list-nav-aside-left a:hover {
+  color: var(--color-2);
+}
+
+.page-amojonamieto .text-list-nav-aside-left,
+.page-levantamientos .text-list-nav-aside-left,
+.page-nivelacion .text-list-nav-aside-left,
+.page-replanteo .text-list-nav-aside-left,
+.page-otros-trabajos .text-list-nav-aside-left,
+.page-estados .text-list-nav-aside-left,
+.page-propiedad .text-list-nav-aside-left,
+.page-mensura .text-list-nav-aside-left,
+.page-urbanizaciones .text-list-nav-aside-left {
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.page-amojonamieto .text-list-nav-aside-left .actual,
+.page-levantamientos .text-list-nav-aside-left .actual,
+.page-nivelacion .text-list-nav-aside-left .actual,
+.page-replanteo .text-list-nav-aside-left .actual,
+.page-otros-trabajos .text-list-nav-aside-left .actual,
+.page-estados .text-list-nav-aside-left .actual,
+.page-propiedad .text-list-nav-aside-left .actual,
+.page-mensura .text-list-nav-aside-left .actual,
+.page-urbanizaciones .text-list-nav-aside-left .actual {
+  color: var(--color-3);
+}
+
+/* .page-amojonamieto 
+.page-levantamientos
+.page-nivelacion 
+.page-replanteo 
+.page-otros-trabajos  */
+.page-exportar a .title-card-contacto:hover {
+  color: var(--color-2);
+}
+
+.page-amojonamieto .boton-terciario .boton a,
+.page-levantamientos .boton-terciario .boton a,
+.page-nivelacion .boton-terciario .boton a,
+.page-replanteo .boton-terciario .boton a,
+.page-otros-trabajos .boton-terciario .boton a,
+.page-estados .boton-terciario .boton a,
+.page-propiedad .boton-terciario .boton a,
+.page-mensura .boton-terciario .boton a,
+.page-urbanizaciones .boton-terciario .boton a {
+  color: var(--color-3);
+}
+
+.page-amojonamieto .boton-terciario:hover,
+.page-levantamientos .boton-terciario:hover,
+.page-nivelacion .boton-terciario:hover,
+.page-replanteo .boton-terciario:hover,
+.page-otros-trabajos .boton-terciario:hover,
+.page-estados .boton-terciario:hover,
+.page-propiedad .boton-terciario:hover,
+.page-mensura .boton-terciario:hover,
+.page-urbanizaciones .boton-terciario:hover,
+.page-enviar-datos .boton-terciario:hover {
+  border: 2px solid var(--color-6);
+  border-radius: 16px;
+}
+
+/* Estilos nav-aside-left  ---------- */
+
+
+/* ---------- Estilos de la nav-bar */
+
+/* .page-exportar .nav-bar,
+.page-estados .nav-bar,
+.page-propiedad .nav-bar,
+.page-mensura .nav-bar,
+.page-urbanizaciones .nav-bar,
+.page-estados .nav-bar,
+.page-amojonamieto .nav-bar,
+.page-levantamientos .nav-bar,
+.page-nivelacion .nav-bar,
+.page-replanteo .nav-bar,
+.page-otros-trabajos .nav-bar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.page-exportar .nav-list-selected,
+.page-estados .nav-list-selected,
+.page-propiedad .nav-list-selected,
+.page-mensura .nav-list-selected,
+.page-urbanizaciones .nav-list-selected,
+.page-estados .nav-list-selected,
+.page-amojonamieto .nav-list-selected,
+.page-levantamientos .nav-list-selected,
+.page-nivelacion .nav-list-selected,
+.page-replanteo .nav-list-selected,
+.page-otros-trabajos .nav-list-selected {
+  display: inline-flex;
+  height: 96px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 28px 16px 32px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-color: var(--color-2);
+}
+
+.page-exportar .nav-list-selected a,
+.page-estados .nav-list-selected a,
+.page-propiedad .nav-list-selected a,
+.page-mensura .nav-list-selected a,
+.page-urbanizaciones .nav-list-selected a,
+.page-estados .nav-list-selected a,
+.page-amojonamieto .nav-list-selected a,
+.page-levantamientos .nav-list-selected a,
+.page-nivelacion .nav-list-selected a,
+.page-replanteo .nav-list-selected a,
+.page-otros-trabajos .nav-list-selected a {
+  color: var(--color-2);
+}
+
+.page-exportar .nav-list,
+.page-estados .nav-list,
+.page-propiedad .nav-list,
+.page-mensura .nav-list,
+.page-urbanizaciones .nav-list,
+.page-estados .nav-list,
+.page-amojonamieto .nav-list,
+.page-levantamientos .nav-list,
+.page-nivelacion .nav-list,
+.page-replanteo .nav-list,
+.page-otros-trabajos .nav-list {
+  height: 96px;
+  gap: 10px;
+  padding: 32px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.page-exportar .nav-list-text,
+.page-estados .nav-list-text,
+.page-propiedad .nav-list-text,
+.page-mensura .nav-list-text,
+.page-urbanizaciones .nav-list-text,
+.page-estados .nav-list-text,
+.page-amojonamieto .nav-list-text,
+.page-levantamientos .nav-list-text,
+.page-nivelacion .nav-list-text,
+.page-replanteo .nav-list-text,
+.page-otros-trabajos .nav-list-text {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Lt BT-Light", Helvetica;
+  font-weight: 300;
+  color: var(--color-5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.page-exportar .nav-list:hover,
+.page-estados .nav-list:hover,
+.page-propiedad .nav-list:hover,
+.page-mensura .nav-list:hover,
+.page-urbanizaciones .nav-list:hover,
+.page-amojonamieto .nav-list:hover,
+.page-levantamientos .nav-list:hover,
+.page-nivelacion .nav-list:hover,
+.page-replanteo .nav-list:hover,
+.page-otros-trabajos .nav-list:hover {
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-color: var(--color-3);
+}
+
+.page-exportar .nav-list a:hover,
+.page-estados .nav-list a:hover,
+.page-propiedad .nav-list a:hover,
+.page-mensura .nav-list a:hover,
+.page-urbanizaciones .nav-list a:hover .page-amojonamieto .nav-list a:hover,
+.page-levantamientos .nav-list a:hover,
+.page-nivelacion .nav-list a:hover,
+.page-replanteo .nav-list a:hover,
+.page-otros-trabajos .nav-list a:hover {
+  color: var(--color-3);
+} */
+
+/* Estilos de la nav-bar ---------- */
+
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+  background: none;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  color: inherit;
+  font-weight: bold;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  /* -webkit-user-select: none; */
+  /* for button */
+  /* -webkit-appearance: button; */
+  /* for input */
+  /* -moz-user-select: none; */
+  /* -ms-user-select: none; */
+}
+
+
+.boton-secundario:hover {
+  background: var(--color-1);
+  color: var(--color-1);
+  border-color: var(--color-1);
+}
+
+
+.page-exportar .boton-solicitar {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Hv BT-Heavy", Helvetica;
+  font-weight: 400;
+  color: var(--color-2);
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+.boton {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Hv BT-Heavy", Helvetica;
+  font-weight: 400;
+  color: #19a7ce;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.boton-secundario {
+  position: relative;
+  border-radius: 16px;
+  border: 4px solid;
+  border-color: #19a7ce;
+  display: flex;
+  width: 100%;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  color: var(--color-1);
+  font-family: var(--text-light);
+}
+
+.boton a {
+  color: var(--color-6);
+  
+}
+
+.boton-secundario input:hover{
+  color: var(--color-2);
+  font-weight: 900;
+}
+
+.boton-secundario:hover {
+  background: var(--color-1);
+}
+
+
+
+
+.page-exportar .container-card-7 {
+  width: 1376px;
+  height: 224px;
+  background-color: var(--color-3);
+  position: relative;
+  border-radius: 16px;
+}
+
+
+
+
+/* .page-exportar .logo-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+.page-exportar .contenedor-4 {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  border-radius: 3000px;
+}
+
+.page-exportar .logo-3 {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 15px;
+  left: 15px;
+}
+
+
+
+.page-exportar .inicio-nosotros {
+  position: relative;
+  width: fit-content;
+  font-family: var(--text-regular);
+  font-weight: 600;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 24px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.page-exportar .span {
+  color: #181823;
+}
+
+.page-exportar .text-wrapper-12 {
+  color: #bfc6c9;
+}
+
+
+
+.page-exportar .whatsaapp-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: fixed;
+  top: 800px;
+  left: 1550px;
+}
+
+.page-exportar .contenedor-5 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background-color: #f6f1f1;
+  border-radius: 300px;
+  border: 1.25px solid;
+  border-color: #146c94;
+}
+
+
+
+
+.bar-select a {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Lt BT-Light", Helvetica;
+  font-weight: 300;
+  color: var(--color-2);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.page-exportar .menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+
+.logo-nav {
+  /* position: fixed; */
+  padding-left: 16px;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  top: 0;
+  background-color: #121212;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-right: 24px;
+}
+.logotipo {
+  position: relative;
+  width: 155px;
+  height: 96px;
+}
+
+.subtitle-logo {
+  position: absolute;
+  top: 62px;
+  left: 51px;
+  font-family: "Futura Lt BT-Light", Helvetica;
+  font-weight: 300;
+  color: var(--color-1);
+  font-size: 14px;
+  letter-spacing: 2.52px;
+  line-height: normal;
+}
+
+.title-logo {
+  position: absolute;
+  top: 47px;
+  left: 51px;
+  font-family: var(--text-light);
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.nav-lists {
+  height: 96px;
+  gap: 10px;
+  padding: 32px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  transition: border-color 0.3s;
+}
+
+.nav-item {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Lt BT-Light", Helvetica;
+  font-weight: 300;
+  color: var(--color-5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  margin-right: 16px
+}
+
+
+
+.bar-list {
+  height: 96px;
+  gap: 10px;
+  padding: 32px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  transition: border-color 0.3s;
+}
+
+.bar {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Lt BT-Light", Helvetica;
+  font-weight: 300;
+  color: var(--color-5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bar-selected {
+  display: inline-flex;
+  height: 96px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 28px 16px 32px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-color: var(--color-2);
+
+}
+
+.bar-list-selected a {
+  color: var(--color-2);
+}
+
+.bar-list:hover {
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-color: var(--color-3);
+}
+
+.bar-list a:hover {
+  color: var(--color-3);
+}
+
+/* ----- NavBar  */
+
+.side-menu{
+  display: none;
+}
+
+
+
+
+
+
+.footer {
+  display: grid;
+  place-items: center;
+  /* top: 5600px; */
+  width: 100%;
+  height: 224px;
+  background-color: var(--color-3);
+  position: relative;
+  border-radius: 16px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 0PX 32PX;
+}
+
+.logo-body-footer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+}
+
+.footer-body {
+  width: fit-content;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+}
+
+.copy-footer {
+  position: relative;
+  /* width: 160px; */
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  flex: 1;
+}
+
+.footer-navbar {
+  text-align: center;
+  /* Centra el contenido en el footer */
+  /* flex: 1; */
+  padding: 0px 32px;
+}
+
+.footer-navbar li {
+  display: inline-flex;
+  /* Hace que los elementos de la lista estén en línea */
+  margin: 0 10px;
+  /* Espacio entre elementos, opcional */
+}
+
+.footer-navbar a {
+  color: #fff;
+  /* Color de enlaces en el footer */
+  font-family: "Commissioner", Helvetica;
+  font-size: 20px;
+}
+
+/* ---------- Fin Footer ---------- */
+
+
+@media (min-width: 360px) and (max-width: 1024px) {
+  body{
+    padding: 0px;
+  }
+
+  .logo-nav {
+    /* position: fixed; */
+    padding-left: 0px;
+    /* align-content: center; */
+    display: grid;
+    flex-direction: row;
+    width: 100%;
+    top: 0;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nav-lists .nav-item {
+    width: fit-content;
+    font-family: "Futura Lt BT-Light", Helvetica;
+    font-weight: 300;
+    color: var(--color-5);
+    font-size: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    margin-right: 16px;
+    padding-bottom: 24px;
+  }
+ 
+  .nav-bar {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s ease-out;
+    display: block;
+  }
+
+  .menu a{
+    display: block;
+    padding: 30px;
+    color: var(--color-3);
+  }
+
+  .menu a:hover{
+    background-color: var(--color-5);
+  }
+  .hamb{
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .hamb-line{
+    background-color: var(--color-1);
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+  }
+  .hamb-line::before,
+  .hamb-line::after{
+    background-color: var(--color-1);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all.2s ease-out;
+    width: 100%;
+  }
+  .hamb-line::before{
+    top: 5px;
+  }
+  .hamb-line::after{
+    top: -5px;
+  }
+  .side-menu{
+    display: none;
+  }
+  .side-menu:checked ~ nav{
+    max-height: 100%;
+  }
+  .side-menu:checked ~ .hamb .hamb-line{
+    background: transparent;
+  }
+  .side-menu:checked ~ .hamb .hamb-line::before{
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  .side-menu:checked ~ .hamb .hamb-line::after{
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  .nav-bar .nav-lists {
+    height: 100%;
+    gap: 10px;
+    padding: 32px 16px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .logo-nav .logotipo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-right: 184px;
+  }
+
+
+  .footer {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: auto;
+    background-color: var(--color-3);
+    position: relative;
+    border-radius: 16px;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0PX 32PX;
+    flex-direction: column;
+  }
+
+  .logo-body-footer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    margin-bottom: 24px;
+  }
+
+  .footer-navbar {
+    text-align: center;
+    flex: 1;
+    padding: 0px 32px;
+    margin-bottom: 24px;
+  }
+
+  .copy-footer {
+    position: relative;
+    width: 160px;
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: var(--color-5);
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    flex: 1;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .footer-navbar li {
+    display: inline-flex;
+    margin: 16px 8px;
+  }
+} 

@@ -1,0 +1,23 @@
+/* Variables de color */
+
+:root {
+    --color-1: rgba(246, 241, 241, 1);
+    --color-2: rgba(25, 167, 206, 1);
+    --color-3: rgba(20, 108, 148, 1);
+    --color-4: rgba(24, 24, 35, 1);
+    --color-5: rgba(191, 198, 201, 1);
+    --color-6: #1E1E1E; 
+    --color-7: #121212; 
+    --sombra: 0px 0px 0px 0px rgba(66, 65, 65, 0.35), 0px 1px 2px 0px rgba(66, 65, 65, 0.34),
+      1px 3px 3px 0px rgba(66, 65, 65, 0.3), 2px 7px 5px 0px rgba(66, 65, 65, 0.18),
+      4px 13px 6px 0px rgba(66, 65, 65, 0.05), 7px 21px 6px 0px rgba(66, 65, 65, 0.01);
+    --sombras-definitivas: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.07),
+      0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 0.05), 0px 20px 13px 0px rgba(0, 0, 0, 0.04),
+      0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 0.04),
+      0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 0.03), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    --text-book:Futura Bk BT-Book;
+    --text-light:Futura Lt BT-Light;
+    --text-heavy:Futura Hv BT-Heavy;
+    --text-regular:Futura Hv BT-Regular;
+  }
+  

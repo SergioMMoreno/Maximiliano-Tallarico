@@ -1,0 +1,374 @@
+.main-page-style {
+  background-color: #121212;
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+  /* Dos columnas de igual ancho */
+  grid-template-rows: 1fr;
+  gap: 36px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  height: 100%;
+}
+
+
+.rute-title {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  font-family: "Commissioner", Helvetica;
+  color: var(--color-5);
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 21px;
+  position: relative;
+  width: fit-content;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.rute-pages {
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: #bfc6c9;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 21px;
+}
+
+.page-actual {
+  font-weight: 700;
+}
+
+.actualPage-aside{
+  color: var(--color-3);
+  font-weight: 600;
+}
+
+.titulo-page {
+  position: relative;
+  width: fit-content;
+  font-family:  "Futura Bk BT", Helvetica;
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding-bottom: 36px;
+  white-space: nowrap;
+  margin-top: 16px;
+}
+
+
+.boton-terciario {
+  border-radius: 70px;
+  display: flex;
+  width: 100%;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 35px 54px;
+  position: relative;
+}
+
+.aside-text {
+  width: 100%;
+  grid-column: 2 / 2;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .section-formulario {
+  width: 100%;
+  grid-column: 3 / span 1;
+}
+
+.formulario {
+  position: relative;
+  width: 100%;
+} */
+
+.text-body{
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: #f6f1f1;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding-bottom: 16px;
+}
+
+.text-subtitle-body{
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Futura Bk BT", Helvetica;
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding-bottom: 16px;
+}
+
+.nav-aside-left {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  margin-top: 24px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center
+}
+
+.list-nav {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.aside-list-nav {
+  position: relative;
+  width: fit-content;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-2);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+.aside-list{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.boton-secundario{
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: normal;
+  white-space: nowrap;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-column: 3/4;
+  margin-top: 24px;
+  margin-bottom: 64px;
+}
+
+.boton-secundario a:hover {
+  color: var(--color-2);
+  font-weight: 900;
+}
+
+.boton-secundario a{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-aside-right{
+  width: 100%;
+  grid-column: 4 / 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-middle{
+  width: 816px;
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+}
+.aside-list-nav-right{
+  width: 100%;
+  margin-top: 50%;
+}
+.img-aside-right{
+  width: 100%;
+  padding: 16px;
+}
+
+.tex-body, ul, li{
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+}
+.text-body-aside {
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding-bottom: 36px;
+}
+.titulo-page-extensos {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Bk BT", Helvetica;
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding-bottom: 36px;
+  white-space: normal;
+  margin-top: 16px;
+}
+
+.ul-internos{
+  padding: 0;
+  display: flex;
+}
+
+.li-internos{
+  display: inline-block;
+  margin-right: 12px; 
+  margin-bottom: 12px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.links-internos{
+  display: block;
+  padding: 10px 20px; /* Ajusta según sea necesario */
+  text-decoration: none;
+  background-color:var(--color-3); /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s; /* Efecto de transición al pasar el ratón */
+}
+.links-internos:hover {
+  background-color: var(--color-4);
+  color: var(--color-2);
+}
+
+
+
+
+@media (min-width: 360px) and (max-width: 1024px) {
+
+  .main-page-style {
+    background-color: #121212;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 36px;
+    padding-top: 64px;
+  }
+
+  .aside-text {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-middle {
+    width: 100vw;
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+  }
+
+  .section-middle .titulo-page {
+    position: relative;
+    width: 100%;
+    font-family: "Futura Bk BT-Book", Helvetica;
+    font-weight: 400;
+    color: var(--color-1);
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    white-space: normal;
+  }
+
+  .aside-list-nav-right {
+    width: 100%;
+    margin-top: 0%;
+  }
+  .text-body {
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: #f6f1f1;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-bottom: 36px;
+    padding-left: 0px;
+  }
+
+  .text-subtitle-body {
+    position: relative;
+    width: fit-content;
+    font-family: "Futura Bk BT-Book", Helvetica;
+    font-weight: 400;
+    color: var(--color-1);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-bottom: 16px;
+    padding-left: 8px;
+  }
+  .text-body-aside {
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: var(--color-5);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-bottom: 36px;
+    padding: 0px 16px;
+  }
+  .titulo-page-extensos {
+    position: relative;
+    width: 100%;
+    font-family: "Futura Bk BT-Book", Helvetica;
+    font-weight: 400;
+    color: var(--color-1);
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    white-space: normal;
+  }
+  .img-body-pages{
+    width: 100%;
+  }
+  .ul-internos {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .li-internos {
+    display: flex;
+    margin-right: 0px;
+    margin-bottom: 12px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    flex-direction: column;
+  }
+}

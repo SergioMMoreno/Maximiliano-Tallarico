@@ -1,0 +1,31 @@
+.seccion-home {
+    transition: transform 0.3s, border-color 0.3s; /* Agregamos transiciones para ambas propiedades */
+    border: 2px solid transparent; /* Establecemos un borde transparente inicial */
+
+}
+
+.seccion-home:hover {
+    transform: scale(0.9); /* Escalamos la tarjeta */
+    border-color: var(--color-3); /* Cambiamos el color del borde al pasar el cursor */
+}
+
+
+.nav-item a:hover {
+    color: var(--color-2);
+    
+}
+
+
+@media (min-width: 360px) and (max-width: 1024px) {
+    .seccion-home {
+        transition: none; /* Agregamos transiciones para ambas propiedades */
+        border: none; /* Establecemos un borde transparente inicial */
+    
+    }
+    
+    .seccion-home:hover {
+        transform: none; /* Escalamos la tarjeta */
+        border-color: none; /* Cambiamos el color del borde al pasar el cursor */
+    }
+    
+}

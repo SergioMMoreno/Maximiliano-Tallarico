@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tallarico Agrimensor</title>
+  <link rel="shortcut icon" href="../img/svg/Logo.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="/css/globals.css" />
+  <link rel="stylesheet" href="/css/styleguides.css" />
+  <link rel="stylesheet" href="/css/pages/style-formulario.css" />
+  <link rel="stylesheet" href="/css/style-responsives.css" />
+  <link rel="stylesheet" href="../css/style-animation.css">
+</head>
+
+<body>
+
+  <!-- <div class="navbar"> -->
+  <div class="logo-nav">
+    <!-- ++++++++++ logotipo -->
+    <div class="logotipo">
+      <img class="logo" src="https://c.animaapp.com/1YR0x6xO/img/logo-1.svg" alt="Logo de la empresa" />
+      <label class="title-logo">TALLARICO</label>
+      <label class="subtitle-logo">agrimensura</label>
+    </div>
+    <!-- logotipo ++++++++++ -->
+    <input type="checkbox" name="" id="side-menu" class="side-menu">
+    <label for="side-menu" class="hamb"><span class="hamb-line"></span></label>
+    <nav class="nav-bar">
+      <ul class="nav-lists">
+        <li class="nav-item"><a href="#">INICIO</a></li>
+        <li class="nav-item"><a href="#sobre-nosotros">NOSOTROS</a></li>
+        <li class="nav-item"><a href="#services">SERVICIOS</a></li>
+        <li class="nav-item"><a href="#faq">PREGUNTAS</a></li>
+        <li class="nav-item"><a href="#contacto">CONTACTANOS</a></l>
+      </ul>
+    </nav>
+  </div>
+
+
+  <main class="page-enviar-datos">
+
+
+    <aside class="aside-text">
+      <button class="boton-terciario">
+        <a class="boton" href="/index.html">↵ VOLVER</a>
+      </button>
+
+      <div class="nav-aside-left">
+        <nav class="list-nav">
+          <ul class="aside-list-nav">
+            <li class="aside-list">Formulario</li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <section class="section-formulario">
+
+      <div class="rute-title">
+        <span class="rute-pages">Inicio / Contáctame / Consulta personalizada / </span>
+        <span class="page-actual">Formulario de consulta</span>
+      </div>
+
+      <H3 class="titulo-page">Formulario de consulta</H3>
+
+      <form action="https://formsubmit.co/sergionero018@gmail.com" method="POST" class="formulario">
+        <div class="input-name">
+          <h5 class="title-input">Tu Nombre</h5>
+          <div class="input">
+            <input class="text-input" type="text" name="name" placeholder="Escribi tu nombre"></input>
+          </div>
+        </div>
+
+        <div class="input-solicitud">
+          <h5 class="title-input">¿Qué solicitud estas buscando?</h5>
+          <div class="input-desplegable">
+
+              <select class="text-desplegable" id="asunto" name="asunto">
+                <option value="estado-parcelario">Valuacion fiscal de mi inmueble</option>
+                <option value="subdivision-ph">Quiero divir mi propiedad</option>
+                <option value="mensura">Adquirir una propiedad (usucapion)</option>
+                <option value="Otras-consultas">Otras, no estan en la lista</option>
+              </select>
+
+          </div>
+        </div>
+
+        <div class="input-text">
+          <h5 class="title-input">Datos adicionales, explicanos con mas detalles agrega a donde queres que nos
+            contactemos
+          </h5>
+            <textarea class="text-area" id="text-area-form" name="texto-formulario"
+              placeholder="Escribí detalles de tu consulta">
+            </textarea>
+        </div>
+        
+        <button class="boton-secundario">
+          <input class="boton" type="submit" value="SOLICITAR"></input>
+        </button>
+
+      </form>
+      <button class="boton-terciario" id="limpiarTextarea">BORRAR MENSAJE</button>
+    </section>
+
+    <script src="../script.js"></script>
+
+  </main>
+</body>
+
+
+</html>

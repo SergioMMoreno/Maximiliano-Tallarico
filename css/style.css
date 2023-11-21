@@ -1,0 +1,2168 @@
+body {
+  background-color: var(--color-7-black2);
+  background-color: #121212;
+}
+
+.page-exportar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* Una sola columna */
+  grid-template-rows: repeat(7, 1fr);
+  /* Siete filas de igual altura */
+  grid-gap: 128px;
+  /* Espacio entre elementos, opcional */
+  height: 0px;
+  width: 1440px;
+  padding-bottom: 36px;
+  position: relative;
+  background-color: #121212;
+}
+
+
+/* Dejar! --- Cambios correctos */
+
+
+
+
+
+/* Dejar! */
+
+
+/* ---------- Barra de navegacion ---------- */
+
+
+
+
+/* ---------- Inicio General Section-home ---------- */
+/* Dejar! */
+
+.section-home {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* Una sola columna */
+  align-items: flex-start;
+  gap: 8px;
+  flex-direction: column;
+  /* position: relative; */
+  left: 32px;
+}
+
+/* ---------- Fin General Section-home ---------- */
+
+
+/* ---------- Inicio Hero-portada ---------- */
+
+
+.inicio-principal {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.content-hero {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 132px;
+  /* position: absolute; */
+  /* top: 32px;
+  left: 32px; */
+  background-image: url("https://c.animaapp.com/1YR0x6xO/img/img-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+.subtitle-hastags {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+  justify-content: space-between;
+}
+
+.texto-location-hero {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.icon-location {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+
+.subtitle {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: normal;
+}
+
+.hastags {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hastags-body {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.hastag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 16px;
+  flex: 0 0 auto;
+  border-radius: 32px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--color-5);
+  position: relative;
+  width: fit-content;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.titulo-agrimensor {
+  gap: 8px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title-hero {
+  /* Titilo y subtitulo */
+  position: relative;
+  width: fit-content;
+  font-family: var(--text-heavy);
+  font-weight: 400;
+  color: #f6f1f1;
+  font-size: 72px;
+  letter-spacing: 7.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.subtitle-hero {
+  position: relative;
+  width: 320px;
+  margin-top: -1px;
+  font-family: var(--text-light);
+  font-weight: 300;
+  color: #f6f1f1;
+  font-size: 48px;
+  letter-spacing: 6.96px;
+  line-height: normal;
+}
+
+.frase-hero {
+  /* Frase-eslogan */
+  position: relative;
+  width: 504px;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 500;
+  color: var(--color-5);
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 3.2px;
+  line-height: normal;
+}
+
+.cards-servicios {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.page-exportar .button-body-hero {
+  display: inline-flex;
+  align-items: flex-end;
+  position: relative;
+  flex: 0 0 auto;
+  justify-content: space-between;
+}
+
+.seccion-home {
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+  flex: 1;
+}
+
+.btn-CTA_frase {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.boton-CTA {
+  display: flex;
+  width: 256px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  border-radius: 16px;
+  border: 4px solid;
+  border-color: var(--color-2);
+  background-color: var(--color-2);
+  font-family: "Futura Hv BT-Heavy", Helvetica;
+  font-weight: 400;
+  color: var(--color-2);
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+/* Dejar! */
+
+
+/* ---------- Fin Hero-portada ---------- */
+
+
+
+/* ---------- Inicio General Section-sobreNosotros ---------- */
+/* Dejar! */
+
+.section-sobreNosotros {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  /* position: absolute; */
+  left: 32px;
+  /* top: 1128px; */
+}
+
+/* ---------- Fin General Section-sobreNosotros ---------- */
+
+
+/* ---------- Inicio Numeros ---------- */
+
+.numer-section {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 78px;
+  position: relative;
+  flex: 0 0 auto;
+  justify-content: center;
+  /* Centra horizontalmente el contenido dentro de la celda */
+  align-items: center;
+  /* Centra verticalmente el contenido dentro de la celda */
+  padding: 64px 0px;
+}
+
+.numer-statistics {
+  display: inline-flex;
+  flex-direction: column;
+  height: 128px;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.label-numer-number {
+  position: relative;
+  width: fit-content;
+  font-family: var(--text-heavy);
+  font-weight: 400;
+  color: #f6f1f1;
+  font-size: 72px;
+  letter-spacing: 7.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.label-numer-texto {
+  position: relative;
+  width: fit-content;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+/* ---------- Fin Numeros ---------- */
+
+/* ---------- Inicio Cards ---------- */
+
+.cards-sobre-nosotros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Dos columnas */
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px 8px;
+}
+
+.card-info_sobre-nosotros {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  background-color: #1e1e1e;
+  border-radius: 16px;
+}
+
+.card-info_sobre-nosotros-img1 {
+  background-image: url('https://c.animaapp.com/1YR0x6xO/img/img1-about-us.png');
+  background-size: cover;
+  background-position: center center;
+  border-radius: 16px;
+
+}.card-info_sobre-nosotros-img2 {
+  background-image: url('https://c.animaapp.com/1YR0x6xO/img/img2-about-us.png');
+  background-size: cover;
+  background-position: center center;
+  border-radius: 16px;
+}
+
+.img-sobre-nosotros {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+}
+
+.content-card-info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  top: 0x;
+  left: 0px;
+}
+
+.subtitle-card-info {
+  position: relative;
+  width: fit-content;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 21px;
+  white-space: nowrap;
+  padding: 14px 24px;
+}
+
+.text-card-info {
+  display: grid;
+  grid-template-columns: repeat(1, 0.5fr);
+  /* Dos columnas */
+  /* Dos filas */
+  grid-gap: 32px;
+}
+
+.title-card-info {
+  font-size: 32px;
+  position: relative;
+  font-family: var(--text-heavy);
+  font-weight: 400;
+  color: var(--color-1);
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0px 24px;
+}
+
+.body-card-info {
+  position: relative;
+  width: 640px;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 16px;
+  letter-spacing: 0.7px;
+  line-height: 32px;
+  padding: 0px 24px 24px;
+}
+
+.body-card-info b {
+  color: var(--color-2);
+}
+
+/* ---------- Fin Cards ---------- */
+
+
+
+/* ---------- Inicio General Section-services ---------- */
+/* Dejar! */
+.section-services {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 32px;
+  align-items: center;
+  /* position: absolute;
+  top: 2192px; */
+}
+
+/* ---------- Fin General Section-services ---------- */
+
+
+
+
+/* ---------- Inicio img-banner ---------- */
+.section-img-banner {
+  position: relative;
+  width: 100%;
+  height: 352px;
+  background-color: var(--color-3);
+  border-radius: 16px;
+}
+
+.img-banner {
+  position: absolute;
+  width: 816px;
+  height: 352px;
+  top: 0;
+  left: 560px;
+}
+
+.title-img-banner {
+  position: absolute;
+  width: 504px;
+  top: 88px;
+  left: 32px;
+  font-family: var(--text-heavy);
+  font-weight: 400;
+  color: var(--color-4);
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* ---------- Fin img-banner ---------- */
+
+
+
+/* ---------- Inicio Titulo de seccion ---------- */
+.title-body-h3 {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  /* Espacio entre elementos */
+  width: 100%;
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+.titulo-de-seccion {
+  position: relative;
+  width: 30%;
+  font-family: var(--text-regular);
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.body-services {
+  width: 504px;
+  font-size: 16px;
+  letter-spacing: 0.7px;
+  line-height: 19.6px;
+  position: relative;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+}
+
+/* ---------- Fin Titulo de seccion ---------- */
+
+
+
+/* ---------- Inicio Groups-card-services ---------- */
+/* Dejar! */
+
+.groups-card-services {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* Seis columnas */
+  grid-template-rows: repeat(3, 1fr);
+  /* Tres filas */
+  grid-gap: 10px;
+  /* Espacio entre elementos, opcional */
+}
+
+/* ---------- Fin General Groups-card-services ---------- */
+
+
+
+/* ---------- Inicio Card-services ---------- */
+.card-service {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  position: absolute;
+  background-color: #1e1e1e;
+  position: relative;
+  border-radius: 16px;
+  grid-column: span 2;
+}
+
+.card-servicePO {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+  position: absolute;
+  background-color: #1e1e1e;
+  position: relative;
+  border-radius: 16px;
+  grid-column: span 3;
+}
+
+.card-content-services {
+  padding: 32px;
+}
+
+.title-card-services {
+  position: relative;
+  width: fit-content;
+  font-family: var(--text-regular);
+  font-weight: 600;
+  color: var(--color-1);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+.card-subtitle-services {
+  position: relative;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 12px;
+  letter-spacing: 1.4px;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.card-text-services {
+  position: relative;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.buttons-group-services {
+  display: flex;
+  flex-wrap: wrap;
+  width: 403px;
+  align-items: flex-start;
+  gap: 8px 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.button-services {
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 32px;
+  border: 1px solid;
+  border-color: var(--color-2);
+  display: inline-flex;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.button-services:hover {
+  background-color: var(--color-1);
+  border-color: var(--color-5);
+  cursor: pointer;
+}
+
+.link-btn-services {
+  position: relative;
+  width: fit-content;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-2);
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.link-btn-services:hover {
+  color: var(--color-3);
+  font-weight: 600;
+}
+
+.img-services {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* ---------- Fin Card-services ---------- */
+
+
+/* ---------- Inicio General Section-faq ---------- */
+/* Dejar! */
+.section-fac {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 32px;
+  align-items: center;
+  position: absolute;
+  top: 2192px;
+}
+
+.section-faq {
+  align-items: center;
+  gap: 64px;
+  /* top: 4000px; */
+  display: inline-flex;
+  flex-direction: column;
+  /* position: absolute; */
+  width: 100%;
+}
+
+/* ---------- Fin General Section-faq ---------- */
+
+
+
+/* ---------- Inicio Card-preguntas ---------- */
+.card-preguntas {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-5);
+  position: relative;
+  border-radius: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  /* Una fila */
+}
+
+.contenedor-acordeon {
+  margin: 16px 32px;
+  grid-column: span 2;
+}
+
+.btn-acordeon:checked~.contenido-preguntas {
+  max-height: 600px;
+  padding: 15px 0px;
+}
+
+.acordeon {
+  width: 100%;
+  font-family: var(--text-light);
+  font-size: 16px;
+}
+
+.acordeon label {
+  display: block;
+  width: 100%;
+  padding: 24px 8px 24px 0px;
+  font-size: 24px;
+  border-bottom: 2px solid var(--color-3);
+  color: var(--color-7);
+  cursor: pointer;
+  margin-bottom: 2px;
+  transition: all 300ms ease;
+}
+
+.acordeon label:hover {
+  background: #2e2e2e;
+  border-radius: 16px;
+  color: #19a7ce;
+  padding: 24px 8px 24px 24px;
+}
+
+.acordeon .contenido-acordeon {
+  padding: 0px;
+  margin: 0px 20px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.btn-acordeon:checked~.contenido-acordeon {
+  max-height: 600px;
+  padding: 16px 0px;
+  font-size: 24px;
+  font-family: var(--text-light);
+}
+
+.btn-acordeon {
+  display: none;
+}
+
+/* ---------- Fin Card-preguntas ---------- */
+
+
+/* ---------- Inicio General Section-contacto ---------- */
+/* Dejar! */
+.section-contacto {
+  align-items: center;
+  gap: 62px;
+  /* top: 4834px; */
+  display: inline-flex;
+  flex-direction: column;
+  /* position: absolute; */
+  left: 32px;
+}
+
+/* ---------- Fin General Section-contacto ---------- */
+
+
+/* ---------- Inicio Card-contacto ---------- */
+
+.cards-contacto {
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Dos columnas de igual ancho */
+  grid-template-rows: repeat(2, 1fr);
+  /* Dos filas de igual altura */
+  grid-gap: 16px;
+  /* Espacio entre elementos, opcional */
+}
+
+.maps-localization {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-contacto {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 354px;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: #1e1e1e;
+  position: relative;
+  border-radius: 16px;
+}
+
+.card-info-contacto {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: absolute;
+  top: 44px;
+  left: 32px;
+}
+
+.subtitle-card-contacto {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+}
+
+.body-card-contacto {
+  width: 100%;
+  font-size: 24px;
+  position: relative;
+  font-family: var(--text-regular);
+  font-weight: 400;
+  color: var(--color-1);
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* .card-contact-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+} */
+.card-contacto-2 {
+  width: 100%;
+  height: 128px;
+  background-color: #1e1e1e;
+  position: relative;
+  border-radius: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.title-card-contact {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+.card-contacto-btn {
+  width: 686px;
+  height: 128px;
+  background-color: var(--color-4);
+  position: relative;
+  border-radius: 16px;
+  /* display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  gap: 10px;
+  flex: 0 0 auto;
+  grid-column: span 1;
+}
+
+/* ---------- Fin Card-contacto ---------- */
+
+
+/* ---------- Inicio Footer ---------- */
+
+.footer {
+  display: grid;
+  place-items: center;
+  /* top: 5600px; */
+  width: 100%;
+  height: 224px;
+  background-color: var(--color-3);
+  position: relative;
+  border-radius: 16px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 0PX 32PX;
+}
+
+.logo-body-footer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+}
+
+.footer-body {
+  width: fit-content;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+}
+
+.copy-footer {
+  position: relative;
+  /* width: 160px; */
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  flex: 1;
+}
+
+.footer-navbar {
+  text-align: center;
+  /* Centra el contenido en el footer */
+  /* flex: 1; */
+  padding: 0px 32px;
+}
+
+.footer-navbar li {
+  display: inline-flex;
+  /* Hace que los elementos de la lista estén en línea */
+  margin: 0 10px;
+  /* Espacio entre elementos, opcional */
+}
+
+.footer-navbar a {
+  color: #fff;
+  /* Color de enlaces en el footer */
+  font-family: "Commissioner", Helvetica;
+  font-size: 20px;
+}
+
+/* ---------- Fin Footer ---------- */
+
+
+
+
+@media (min-width: 360px) and (max-width: 1024px) {
+
+  /* .logo-nav {
+    align-items: flex-start;
+    gap: 635px;
+    position: relative;
+    left: 0px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .nav-bar {
+    display: inline-block;
+  }
+
+  .nav-lists {
+    display: none;
+  }
+
+  .nav-lists.activa {
+    display: none;
+  } */
+
+
+
+
+
+
+
+  .page-exportar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .contenido {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+
+  .section-home {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    gap: 8px;
+    flex-direction: column;
+    position: relative;
+    left: 0px;
+    width: 100vw;
+  }
+
+  .cards-servicios {
+    display: grid;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .content-hero {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 132px; */
+    background-image: url("https://c.animaapp.com/1YR0x6xO/img/img-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100vw;
+  }
+
+  .icon-location {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+
+  .subtitle-hastags {
+    display: grid;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: space-between;
+  }
+
+  .hastags {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+    overflow: hidden;
+    opacity: 0;
+  }
+
+  .titulo-agrimensor {
+    gap: 8px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .subtitle-hero {
+    position: relative;
+    width: 100%;
+    margin-top: -1px;
+    font-family: var(--text-light);
+    font-weight: 300;
+    color: #f6f1f1;
+    font-size: 24px;
+    letter-spacing: 6.96px;
+    line-height: normal;
+  }
+
+  .title-hero {
+    position: relative;
+    width: 100%;
+    font-family: var(--text-heavy);
+    font-weight: 400;
+    color: #f6f1f1;
+    font-size: 36px;
+    letter-spacing: 7.2px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .btn-CTA_frase {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 16px;
+  }
+
+  .boton-CTA {
+    position: relative;
+    width: 100%;
+    height: 64px;
+    border-radius: 16px;
+    font-family: "Futura Hv BT-Heavy", Helvetica;
+    font-weight: 400;
+    background-color: #19a7ce;
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .frase-hero {
+    position: relative;
+    font-family: "Commissioner", Helvetica;
+    font-weight: 600;
+    color: var(--color-5);
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 3.2px;
+    line-height: normal;
+    width: 100%;
+  }
+
+  .seccion-home {
+    background-color: #1e1e1e;
+    border-radius: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+    flex: 1;
+    width: 100vw;
+  }
+  .card-servicios .seccion-home {
+    transform: none;  
+    transition: none;
+    border: none;
+  }
+  .card-servicios .seccion-home:hover {
+    transform: none;  
+    transition: none;
+    border: none;
+  }
+
+  .card-top .texto {
+    width: 80%;
+    /* margin-top: 4%;
+    margin-left: 4%; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 16px;
+    padding-left: 24px;
+  }
+
+  a .card-top {
+    position: relative;
+    width: 100%;
+    height: 128px;
+  }
+
+  .card-bottom {
+    position: relative;
+    width: 96vw;
+    height: 128px;
+  }
+
+  a .card-title {
+    position: relative;
+    width: fit-content;
+    font-family: "Futura Hv BT-Heavy", Helvetica;
+    font-weight: 400;
+    color: var(--color-1);
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .card-bottom .card-link {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+  }
+
+  /* fin de section-home */
+
+  .section-sobreNosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    align-items: center;
+    position: relative;
+    left: 0px !important;
+    margin-top: 64px;
+    width: 100%;
+  }
+
+  .numer-section {
+    display: grid;
+    align-items: flex-start;
+    gap: 78px;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0px;
+  }
+
+  .numer-statistics {
+    display: inline-flex;
+    flex-direction: column;
+    height: 64px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .label-numer-number {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-heavy);
+    font-weight: 400;
+    color: #f6f1f1;
+    font-size: 64px;
+    letter-spacing: 7.2px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .cards-sobre-nosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px 8px;
+  }
+
+  .card-info_sobre-nosotros {
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    background-color: #1e1e1e;
+    border-radius: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .card-info_sobre-nosotros-img1  {
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    background-color: #1e1e1e;
+    border-radius: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+    .card-info_sobre-nosotros-img2  {
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    background-color: #1e1e1e;
+    border-radius: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .img-sobre-nosotros {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .content-card-info {
+    display: grid !important;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* padding: 8px; */
+    padding-left: 0%;
+    padding-top: 0%;
+  }
+
+  .text-card-info {
+    display: grid;
+    grid-template-columns: repeat(1, 0.5fr);
+    grid-template-rows: 1fr;
+    grid-gap: 16px;
+  }
+
+  .title-card-info {
+    font-size: 24px;
+    position: relative;
+    font-family: var(--text-heavy);
+    font-weight: 400;
+    color: var(--color-1);
+    letter-spacing: 0;
+    line-height: normal;
+    width: 100vw;
+    padding: 0px 14px;
+  }
+
+  .body-card-info {
+    position: relative;
+    width: 100%;
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: var(--color-5);
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 19.6px;
+    padding: 14px;
+  }
+
+  .subtitle-card-info {
+    position: relative;
+    width: fit-content;
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: var(--color-5);
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    line-height: 21px;
+    white-space: nowrap;
+    padding: 16px 16px;
+  }
+
+  /* fin de section-sobreNosotros */
+
+
+  .section-services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    margin-top: 64px;
+  }
+
+  .section-img-banner {
+    position: relative;
+    width: 100vw;
+    height: 192px;
+    background-color: var(--color-3);
+    border-radius: 16px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center; 
+    align-items: center;
+    padding: 0px 0px 0px 16px; 
+  }
+
+  .title-img-banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: var(--text-heavy);
+    font-weight: 400;
+    color: var(--color-4);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    flex: 1;
+    top: 0px !important;
+    left: 0px !important;
+    /* padding: 0px 0px 0px 16px;  */
+  }
+
+  .img-banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0px;
+    flex: 1;
+    object-fit: cover;
+    display: none; /*ocultamos la imagen*/
+  }
+
+
+
+  .section-faq {
+    align-items: center;
+    gap: 8px;
+    display: grid;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    grid-template-columns: 1fr;
+    margin-top: 64px;
+  }
+  .card-preguntas {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-5);
+    position: relative;
+    border-radius: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 36px 16px;
+  }
+
+  .title-body-h3 {
+    display: inline-block;
+    position: relative;
+    width: 100vw;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+
+  .titulo-de-seccion {
+    position: relative;
+    width: 100%;
+    font-family: var(--text-regular);
+    font-weight: 400;
+    color: var(--color-1);
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 16px;
+  }
+
+  .body-services {
+    width: 100%;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    line-height: 19.6px;
+    position: relative;
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: var(--color-5);
+    padding: 16px;
+  }
+
+  .groups-card-services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 8px;
+    width: 100vw;
+  }
+
+  .card-service {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    background-color: #1e1e1e;
+    position: relative;
+    border-radius: 16px;
+    grid-column: span 2;
+    width: 100vw;
+  }
+
+  .card-content-services {
+    padding: 8px;
+  }
+
+  .img-services {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .buttons-group-services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    gap: 8px 8px;
+    position: relative;
+    flex: 0 0 auto;
+    padding: 8px;
+  }
+
+  .card-subtitle-services {
+    position: relative;
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: var(--color-5);
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    line-height: 21px;
+    white-space: nowrap;
+    padding: 8px;
+  }
+
+  .title-card-services {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-regular);
+    font-weight: 600;
+    color: var(--color-1);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    margin-bottom: 0px;
+    padding: 8px;
+  }
+
+  .card-text-services {
+    position: relative;
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: var(--color-5);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: 0px;
+    padding: 8px;
+  }
+
+  .contenedor-acordeon {
+    margin: 8px 16px;
+    grid-column: span 2;
+  }
+
+  .btn-acordeon:checked~.contenido-acordeon {
+    max-height: 600px;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-family: var(--text-light);
+  }
+
+
+  .section-contacto {
+    align-items: center;
+    gap: 8px;
+    display: grid;
+    flex-direction: column;
+    position: relative;
+    left: 0px;
+    margin-top: 64px;
+  }
+
+  .cards-contacto {
+    width: 100%;
+    align-items: flex-start;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 16px;
+  }
+
+  .cards-contacto {
+    width: 100vw;
+    align-items: flex-start;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 16px;
+  }
+
+  .card-contacto {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #1e1e1e;
+    position: relative;
+    border-radius: 16px;
+  }
+
+  .card-info-contacto {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 24px 0px;
+  }
+
+  .info-card {
+    width: 100vw;
+    padding: 16px;
+  }
+
+  .body-card-contacto {
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    font-family: var(--text-regular);
+    font-weight: 400;
+    color: var(--color-1);
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 8px;
+  }
+
+  .maps-localization {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .subtitle-card-contacto {
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: var(--color-5);
+  }
+
+  .card-contacto-2 {
+    width: 100vw;
+    height: auto;
+    background-color: #1e1e1e;
+    position: relative;
+    border-radius: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 0 0 auto;
+  }
+
+  .title-card-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: var(--text-heavy);
+    font-weight: 400;
+    color: var(--color-1);
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 8px;
+    padding: 16px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 24px 0px;
+  }
+
+  .title-card-contact .consulta {
+    position: relative;
+    width: 100%;
+    font-family: var(--text-regular);
+    font-weight: 400;
+    color: var(--color-1);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 16px;
+  }
+
+  .card-contacto-btn {
+    width: 100vw;
+    height: auto;
+    background-color: var(--color-4);
+    position: relative;
+    border-radius: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 24px;
+    grid-column: span 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-contacto-btn .boton-secundario {
+    position: relative;
+    border-radius: 16px;
+    border: 4px solid;
+    border-color: #19a7ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 256px;
+    height: 64px;
+  }
+
+  .boton-solicitar {
+    font-family: var(--text-regular);
+    font-weight: 800;
+    color: var(--color-1);
+    letter-spacing: 4px;
+    line-height: normal;
+  }
+
+  .footer {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: auto;
+    background-color: var(--color-3);
+    position: relative;
+    border-radius: 16px;
+    margin-top: 64px;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0PX 32PX;
+    flex-direction: column;
+  }
+
+  .logo-body-footer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    margin-bottom: 24px;
+  }
+
+  .footer-navbar {
+    text-align: center;
+    flex: 1;
+    padding: 0px 32px;
+    margin-bottom: 24px;
+  }
+
+  .copy-footer {
+    position: relative;
+    width: 160px;
+    font-family: "Commissioner", Helvetica;
+    font-weight: 400;
+    color: var(--color-5);
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    flex: 1;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .footer-navbar li {
+    display: inline-flex;
+    margin: 16px 8px;
+  }
+
+}
+
+
+
+
+
+.page-exportar .boton {
+  display: flex;
+  width: 256px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 35px 54px;
+  position: relative;
+  background-color: #19a7ce;
+  border-radius: 16px;
+}
+
+.page-exportar .boton .boton-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -13.5px;
+  margin-bottom: -11.5px;
+  margin-left: -4.5px;
+  margin-right: -4.5px;
+  font-family: "Futura Hv BT-Heavy", Helvetica;
+  font-weight: 400;
+  color: #f6f1f1;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.page-exportar .p {
+  position: relative;
+  width: 504px;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 500;
+  color: var(--color-5);
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 3.2px;
+  line-height: normal;
+}
+
+
+
+
+.texto {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+
+.page-exportar .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Hv BT-Heavy", Helvetica;
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* ----------- */
+
+.card-top {
+  position: relative;
+  width: 100%;
+  height: 128px;
+}
+
+.card-bottom {
+  position: relative;
+  width: 100%;
+  height: 96px;
+}
+
+.card-subtitle {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.card-title {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Hv BT-Heavy", Helvetica;
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.a-link {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.card-link {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+
+
+.page-exportar .link-de-detalles {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+.page-exportar .arrow-link {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.page-exportar .text-wrapper-7 {
+  position: relative;
+  width: 143px;
+  height: 32px;
+  margin-top: -1px;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+
+.page-exportar .container-card {
+  position: relative;
+  width: 684px;
+  height: 364px;
+  background-color: #1e1e1e;
+  border-radius: 16px;
+}
+
+
+.page-exportar .title-card {
+  width: 202px;
+  margin-top: -1px;
+  font-size: 32px;
+  position: relative;
+  font-family: "Futura Bk BT-Book", Helvetica;
+  font-weight: 400;
+  color: var(--color-1);
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.page-exportar .bodyextend-card {
+  position: relative;
+  width: 640px;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 19.6px;
+}
+
+
+.page-exportar .texto-card-seccion-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 75px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+.page-exportar .texto-tituloparrafo {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.page-exportar .title-card-2 {
+  width: 372px;
+  margin-top: -1px;
+  font-size: 32px;
+  position: relative;
+  font-family: "Futura Bk BT-Book", Helvetica;
+  font-weight: 400;
+  color: var(--color-1);
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.page-exportar .texto-seccion {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.page-exportar .body-card {
+  width: 364px;
+  margin-top: -1px;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 19.6px;
+  position: relative;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+}
+
+.page-exportar .card {
+  position: relative;
+  width: 224px;
+  margin-top: -1px;
+  font-family: "Commissioner", Helvetica;
+  font-weight: 400;
+  color: var(--color-5);
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 19.6px;
+}
+
+
+
+
+.cards-services {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1375px;
+  align-items: center;
+  gap: 8px 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.container-card-2 {
+  width: 453px;
+  height: 352px;
+  background-color: #1e1e1e;
+  position: relative;
+  border-radius: 16px;
+}
+
+.content-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+
+.consulta {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-regular);
+  font-weight: 400;
+  color: var(--color-1);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+.boton-secundario {
+  display: flex;
+  width: 256px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  top: 32px;
+  left: 215px;
+  border-radius: 16px;
+  border: 4px solid;
+  border-color: var(--color-2);
+}
+
+.page-exportar .boton-solicitar {
+  position: relative;
+  width: fit-content;
+  font-family: "Futura Hv BT-Heavy", Helvetica;
+  font-weight: 400;
+  color: var(--color-2);
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.page-exportar .boton-solicitar a {
+  color: var(--color-2);
+}
+
+.page-exportar .boton-secundario:hover {
+  background-color: var(--color-1);
+}
+
+
+.page-exportar .whatsapp {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 12px;
+  left: 12px;
+}
